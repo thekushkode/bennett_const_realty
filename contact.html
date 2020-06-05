@@ -39,19 +39,19 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto smooth-scroll">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Real Estate <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/real_estate.html">Real Estate <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features" data-offset="90">Projects</a>
+              <a class="nav-link" href="/projects.html" data-offset="90">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services" data-offset="90">Services</a>
+              <a class="nav-link" href="/services.html" data-offset="90">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio" data-offset="90">About</a>
+              <a class="nav-link" href="#about" data-offset="90">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials" data-offset="30">Contact</a>
+              <a class="nav-link" href="/contact.html" data-offset="30">Contact</a>
             </li>
           </ul>
           <!-- Social Icon  -->
@@ -77,14 +77,13 @@
           <div class="row smooth-scroll">
             <div class="col-md-12 text-center">
               <div class="text-white wow fadeInDown">
-                <h1 class="display-4 text-uppercase font-weight-bold mt-5 mt-xl-2">Bennett</h1>
-                <h2>Construction & Realty</h2>
+                <h1 class="display-4 text-uppercase font-weight-bold mt-5 mt-xl-2">Contact Us</h1>
                 <hr class="hr-light my-4">
                 <h3 class="subtext-header white-text mb-3">Building the Future. Restoring the Past.
                   <!-- <p class="clearfix d-none d-md-block">Deleniti consequuntur, nihil voluptatem modi nobis veniam.</p> -->
                 </h3>
               </div>
-              <a href="#" data-offset="100" class="btn blue-gradient btn-rounded wow fadeInUp"
+              <a href="#contact" data-offset="100" class="btn blue-gradient btn-rounded wow fadeInUp"
                 data-wow-delay="0.2s">Tell Us About Your Project</a>
             </div>
           </div>
@@ -97,6 +96,104 @@
 
   <!-- Main content -->
   <main>
+    <!--Section: Contact v.2-->
+    <section class="m-4">
+
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
+        directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+      <div class="row" id="contact">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" data-netlify="true" action="mail.php" method="POST">
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <textarea type="text" id="message" name="message" rows="2"
+                    class="form-control md-textarea"></textarea>
+                  <label for="message">Your message</label>
+                </div>
+
+              </div>
+            </div>
+            <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Charleston, SC 29401, USA</p>
+            </li>
+
+            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>404.401.6063</p>
+            </li>
+
+            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>bennett@bcrbroker.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+      </div>
+
+    </section>
+    <!--Section: Contact v.2-->
 
   </main>
 
@@ -112,12 +209,14 @@
         <!-- Grid column -->
         <div class="col-xl-4 col-lg-4 mt-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
           <!-- About -->
-          <h5 class="text-uppercase mb-4"><strong>ABOUT COMPANY</strong></h5>
+          <h5 class="text-uppercase mb-4" id="about"><strong>ABOUT COMPANY</strong></h5>
 
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti.</p>
+          <p>Based of ATL, GA & Charleston, SC, Bennett Construction & Realty handles projects ranging from small
+            remodeling jobs to extensive residential & commercial build-outs.</p>
 
-          <p class="">Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
+          <p class="">We only work with the highest rated sub-contractors & suppliers in order to provide you with
+            highest quality results. We take pride in being service-oriented and strive to provide a comfortable and
+            comprehensive environment for our customers.</p>
 
           <div class="footer-socials">
 
@@ -155,7 +254,7 @@
           <!-- Info -->
           <p><i class="fas fa-home mr-3"></i> Charleston, SC 29401, US</p>
           <p><i class="fas fa-envelope mr-3"></i>bennett@bcrbroker.com</p>
-          <p><i class="fas fa-phone mr-3"></i>404.555.1234</p>
+          <p><i class="fas fa-phone mr-3"></i>404.401.6063</p>
           <p><i class="fas fa-print mr-3"></i>404.666.1235</p>
 
         </div>
