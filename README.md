@@ -1,0 +1,1 @@
+This static site using Javascript, HTML, CSS, MDB, & JQuery, was built for a constructiopn compnay based in Charleston, SC & Atlanta, Ga.
